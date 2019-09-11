@@ -1,4 +1,4 @@
-package com.company.m1.sample3_xmlparser;
+package com.company.examples.m1.sample3_xmlparser;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

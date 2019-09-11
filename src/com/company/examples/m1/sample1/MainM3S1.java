@@ -1,4 +1,4 @@
-package com.company.m1.sample1;
+package com.company.examples.m1.sample1;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

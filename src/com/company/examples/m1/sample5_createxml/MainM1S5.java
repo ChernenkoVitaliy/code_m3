@@ -1,4 +1,4 @@
-package com.company.m1.sample5_createxml;
+package com.company.examples.m1.sample5_createxml;
 
 
 import org.w3c.dom.Document;

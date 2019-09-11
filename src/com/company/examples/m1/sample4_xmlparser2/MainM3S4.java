@@ -1,4 +1,4 @@
-package com.company.m1.sample4_xmlparser2;
+package com.company.examples.m1.sample4_xmlparser2;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

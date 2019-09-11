@@ -1,4 +1,4 @@
-package com.company.m1.sample2_tester;
+package com.company.examples.m1.sample2_tester;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

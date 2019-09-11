@@ -1,4 +1,4 @@
-package com.company.m1.sample2_tester;
+package com.company.examples.m1.sample2_tester;
 
 public class MainM1S2 {
     public static void main(String[] args) {
