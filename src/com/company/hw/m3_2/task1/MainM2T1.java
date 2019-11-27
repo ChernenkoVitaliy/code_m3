@@ -1,7 +1,7 @@
 package com.company.hw.m3_2.task1;
 
 /*Есть список поездов, представленый в виде XML. Вывести на экран информацию о тех поездах,
-* которые отправляются с Киева*/
+* которые отправляются с Киева(+)*/
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
