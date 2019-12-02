@@ -1,27 +1,61 @@
 package com.company.hw.m3_2.task3;
 
-import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Arrays;
 
-@XmlRootElement(name = "exchangerates")
+@XmlRootElement(name = "exchangerate")
 public class ExchangeRate {
-    private Row row[];
+    private String CCY;
+    private String BaseCCY;
+    private double buy;
+    private double sale;
 
-    public Row[] getRow() {
-        return row;
+    //fix it
+
+
+    public String getCCY() {
+        return CCY;
     }
 
-    @XmlElement(name = "row")
-    public void setRow(Row[] row) {
-        this.row = row;
+    @XmlAttribute(name = "ccy")
+    public void setCCY(String CCY) {
+        this.CCY = CCY;
     }
 
+    public String getBaseCCY() {
+        return BaseCCY;
+    }
+
+    @XmlAttribute(name = "base_ccy")
+    public void setBaseCCY(String baseCCY) {
+        BaseCCY = baseCCY;
+    }
+
+    public double getBuy() {
+        return buy;
+    }
+
+    @XmlAttribute
+    public void setBuy(double buy) {
+        this.buy = buy;
+    }
+
+    public double getSale() {
+        return sale;
+    }
+
+    @XmlAttribute
+    public void setSale(double sale) {
+        this.sale = sale;
+    }
 
     @Override
     public String toString() {
-        return "ExchangeRate{" +
-                "row=" + Arrays.toString(row) +
+        return "Row{" +
+                "CCY='" + CCY + '\'' +
+                ", BaseCCY='" + BaseCCY + '\'' +
+                ", buy=" + buy +
+                ", sale=" + sale +
                 '}';
     }
 }
